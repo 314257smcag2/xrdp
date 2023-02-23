@@ -2,8 +2,7 @@
 services:
   vpsm:
     build: .
-    shm_size: 100gb
+    privileged: true
+    shm_size: 128gb
     ports:
-      - "5000:5000"
-      - "22222:22"
-      - "80:80"
+      - "4000:4000"
