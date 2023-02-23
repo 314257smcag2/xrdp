@@ -9,5 +9,5 @@
 #FROM aank999/xrdp-okteto-cloud:latest
 FROM thuonghai2711/nomachine-ubuntu-desktop:mate
 LABEL maintainer="Aank is ME <https://aank.me/Youtube>"
-EXPOSE 80
-ENTRYPOINT ["service ssh start && service nginx start"]
+EXPOSE 4000
+ENTRYPOINT ["echo "######### OK #########" && sleep 90d"]
