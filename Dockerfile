@@ -10,4 +10,4 @@
 FROM thuonghai2711/nomachine-ubuntu-desktop:mate
 LABEL maintainer="Aank is ME <https://aank.me/Youtube>"
 EXPOSE 4000
-ENTRYPOINT ["echo '######### OK #########' && sleep 90d"]
+CMD echo '######### OK #########' && sleep 90d
