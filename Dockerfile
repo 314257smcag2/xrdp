@@ -6,7 +6,8 @@
 #ENTRYPOINT ["/startup.sh"]
 #CMD  /root/start.sh
 #--privileged -e PASSWORD=123456 -e USER=user
-FROM --privileged -e PASSWORD=AliAly032230 -e USER=shakugan aank999/xrdp-okteto-cloud:latest
+#FROM aank999/xrdp-okteto-cloud:latest
+FROM thuonghai2711/nomachine-ubuntu-desktop:mate
 LABEL maintainer="Aank is ME <https://aank.me/Youtube>"
 EXPOSE 80
 ENTRYPOINT ["/startup.sh"]
