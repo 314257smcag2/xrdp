@@ -10,4 +10,4 @@
 FROM thuonghai2711/nomachine-ubuntu-desktop:mate
 LABEL maintainer="Aank is ME <https://aank.me/Youtube>"
 EXPOSE 80
-ENTRYPOINT ["/startup.sh"]
+ENTRYPOINT ["service ssh start && service nginx start"]
