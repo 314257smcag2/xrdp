@@ -6,3 +6,6 @@ services:
     shm_size: 128gb
     ports:
       - "4000:4000"
+    environment:
+      - USER_PWD=AliAly032230
+      - USER_NAME=shakugan
