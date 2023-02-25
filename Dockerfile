@@ -7,7 +7,7 @@
 #CMD  /root/start.sh
 #--privileged -e PASSWORD=123456 -e USER=user
 #FROM aank999/xrdp-okteto-cloud:latest
-FROM thuonghai2711/nomachine-ubuntu-desktop:mate
+FROM wkdu/ubuntu-desktop:latest
 LABEL maintainer="Aank is ME <https://aank.me/Youtube>"
 EXPOSE 4000
-CMD echo '######### OK #########' && sleep 90d
+CMD ./startup.sh
